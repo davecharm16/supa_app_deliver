@@ -10,7 +10,6 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -18,8 +17,8 @@ class LoginScreen extends StatelessWidget {
             FilledButton.icon(
               onPressed: () {},
               icon: const Icon(Icons.login),
-              label: const Text(
-                'Sign In With Google',
+              label: Text(
+                context.l10n.signIn,
               ),
             )
           ],
