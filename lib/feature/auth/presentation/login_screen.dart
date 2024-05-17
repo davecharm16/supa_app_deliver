@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:supa_app/l10n/l10n.dart';
 
 @RoutePage()
 class LoginScreen extends StatelessWidget {
@@ -7,9 +8,9 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('Login'),
+        child: Text(context.l10n.login),
       ),
     );
   }
