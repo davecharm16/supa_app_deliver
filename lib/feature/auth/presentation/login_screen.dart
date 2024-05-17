@@ -7,9 +7,20 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('Login'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FilledButton.icon(
+              onPressed: () {},
+              icon: const Icon(Icons.login),
+              label: const Text(
+                'Sign In With Google',
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
