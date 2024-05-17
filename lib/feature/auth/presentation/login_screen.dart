@@ -10,7 +10,19 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(context.l10n.login),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(context.l10n.login),
+            FilledButton.icon(
+              onPressed: () {},
+              icon: const Icon(Icons.login),
+              label: Text(
+                context.l10n.signIn,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
