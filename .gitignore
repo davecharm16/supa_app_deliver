@@ -9,9 +9,10 @@
 .history
 .svn/
 migrate_working_dir/
-*.gr
-*/.gr
+*.gr.dart
+*/.gr.dart
 *.freezed
+*.g.dart 
 
 
 # IntelliJ related
