@@ -34,8 +34,11 @@ dependencies:
   cupertino_icons: null
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   freezed_annotation: null
   google_sign_in: null
+  intl: ^0.18.1
   supabase_flutter: null
 
 dev_dependencies:
@@ -63,6 +66,7 @@ flutter_gen:
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   # assets:
