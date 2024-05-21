@@ -39,7 +39,7 @@ dependencies:
   flutter_screenutil: null
   freezed_annotation: null
   google_sign_in: null
-  intl: ^0.18.1
+  intl: null
   supabase_flutter: null
 
 dev_dependencies:
