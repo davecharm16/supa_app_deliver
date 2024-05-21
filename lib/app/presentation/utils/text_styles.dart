@@ -5,31 +5,26 @@ import 'package:supa_app/app/presentation/utils/app_colors.dart';
 class TextStyles {
   static const TextStyle _baseStyle = TextStyle(
     fontFamily: 'Sen',
-    color: AppColors.black,
+    color: AppColors.onSurface,
   );
-  // Heading [24sp to 36sp]
-  static TextStyle heading1({Color? color}) => _baseStyle.copyWith(
-        fontSize: 36.sp,
+  // Heading [24sp to 32sp]
+  static TextStyle headingLarge({Color? color}) => _baseStyle.copyWith(
+        fontSize: 32.sp,
         color: color,
       );
-  // Subheading [18sp to 24sp]
-  static TextStyle subheading1({Color? color}) => _baseStyle.copyWith(
-        fontSize: 24.sp,
+  // Title [14sp to 22sp]
+  static TextStyle titleLarge({Color? color}) => _baseStyle.copyWith(
+        fontSize: 22.sp,
         color: color,
       );
-  // Title [14sp to 18sp]
-  static TextStyle title1({Color? color}) => _baseStyle.copyWith(
-        fontSize: 18.sp,
-        color: color,
-      );
-  // Subtitle [12sp to 16sp]
-  static TextStyle subtitle1({Color? color}) => _baseStyle.copyWith(
+  // Body [12sp to 16sp]
+  static TextStyle bodyLarge({Color? color}) => _baseStyle.copyWith(
         fontSize: 16.sp,
         color: color,
       );
-  // Overline [8sp to 12sp]
-  static TextStyle overline1({Color? color}) => _baseStyle.copyWith(
-        fontSize: 12.sp,
+  // Overline [10sp to 14sp]
+  static TextStyle labelLarge({Color? color}) => _baseStyle.copyWith(
+        fontSize: 14.sp,
         color: color,
       );
 }
