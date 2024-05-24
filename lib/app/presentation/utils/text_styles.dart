@@ -22,9 +22,21 @@ class TextStyles {
         fontSize: 16.sp,
         color: color,
       );
-  // Overline [10sp to 14sp]
+  // Label [10sp to 14sp]
   static TextStyle labelLarge({Color? color}) => _baseStyle.copyWith(
         fontSize: 14.sp,
+        color: color,
+      );
+
+  //Buttons
+  static TextStyle buttonText({
+    required Color color,
+    FontWeight? fontWeight,
+    double? fontSize,
+  }) =>
+      _baseStyle.copyWith(
+        fontSize: fontSize ?? 12.sp,
+        fontWeight: fontWeight ?? FontWeight.w700,
         color: color,
       );
 }
